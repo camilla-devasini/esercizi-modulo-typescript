@@ -56,7 +56,7 @@ const countries1: Country[] = [
 // Use the generic interface type `Array`: Array<type>
 // Hint: Make use of the `Country` type.
 
-const countries2 = [
+const countries2: Array<Country> = [
     {
         name: "Thailand",
         code: "TH",
