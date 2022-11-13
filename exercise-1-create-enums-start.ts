@@ -18,7 +18,7 @@ enum Currency {
 
 interface Country {
     name: string;
-    currency: number;
+    currency: Currency;
 }
 
 // Replace the string values for the `currency` properties below with
